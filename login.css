@@ -1,0 +1,147 @@
+body{
+  background-image: url("wallpaperflare.com_wallpaper.jpg");
+  
+	}
+.container
+	{
+  		max-width: 400px;
+  		height: 700px;
+  		padding: 50px 100px 100px 100px;
+  		margin: auto;
+	}
+.wrapper
+	{
+  		width: 100%;
+  		    height: 80%;
+  		background: #fff;
+  		border-radius: 5px;
+  		box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
+  		padding: 10px;
+  	}
+.wrapper .title
+	{
+  		height: 100px;
+  		background: #fff;
+  		border-radius: 5px 5px 0 0;
+  		color: #000000;
+  		font-size: 30px;
+  		font-weight: 600;
+  		display: flex;
+ 		align-items: center;
+  		justify-content: center;
+
+	}
+.wrapper form
+	{
+  		padding: 10px;
+  		padding-right: 20px;
+  	
+  		width: 100%;
+  		
+	}
+.wrapper form .row{
+  height: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.wrapper .text{
+	color:#000000;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-bottom: 5px;
+	margin-top: 5px;
+
+}
+
+.wrapper form .button input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #149FEA;
+  border: 1px solid #149FEA;
+  cursor: pointer;
+  width: 92%;
+  height: 40px;
+  margin-top: 30px;
+  border-radius: 10px;
+
+}
+form .button input:hover{
+  background: #fff;
+  color: #149FEA;
+}
+.wrapper form .row input{
+ height: 100%;
+    width: 80%;
+    outline: none;
+    padding-left: 45px;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+  transition: all 0.3s ease;
+  background-color: #C2E0F0;
+}
+form .row input:focus{
+  border-color: #16a085;
+  box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+}
+form .row input::placeholder{
+  color: #999;
+}
+p {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 20px 0 20px 0;
+  
+} 
+
+p span { 
+    background:#fff; 
+    padding:10px;
+    font-size: 20px; 
+    color: #808080;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20%;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
